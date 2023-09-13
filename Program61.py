@@ -1,0 +1,13 @@
+name=input("Enter the patient's name :- ")
+age=input("Enter the patient's name:- ")
+address=input("Enter the patient's address :- ")
+phno=input("Enter the mobile no of patient :- ")
+reason=input("Enter the reason of the patient :- ")
+fo=open("Hospital.txt","w")
+fo.write(name+"  "+age+"  "+address+"  "+phno+"  "+reason)
+fo.close()
+fo=open("Hospital.txt","r")
+l=fo.readline().split("  ")
+for i in l:
+    print(i)
+fo.close()

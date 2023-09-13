@@ -1,0 +1,10 @@
+x=int(input("Enter first number :- "))
+y=int(input("Enter second number :- "))
+str="{0:.2f}"
+print("Addition is :- ",x+y)
+print("Subtraction is :-",x-y)
+print("Multiplication is :- ",x*y)
+print("Division is :- ",str.format(x/y))
+print("Floor division is :- ",x//y)
+print("Modulus is :- ",x%y)
+print("Exponent is :- ",x**y)
